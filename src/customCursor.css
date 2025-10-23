@@ -1,0 +1,30 @@
+@media(pointer: coarse){
+    .cursor-glass{ display: none !important};
+    html, body, a, button, [role="button"], .clickable, .swiper, .swiper *{
+    cursor: auto !important;
+    }
+}
+
+.cursor-glass{
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 999;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 18%, transparent 40%), 
+        radial-gradient(circle at 70% 70%, rgba(180, 210, 235, 0.18), rgba(140, 185, 210, 0.10) 60%, rgba(120, 170, 195, 0.06) 100%);
+    box-shadow: inset 0 4px 10px rgba(255, 255, 255, 0.65), inset 0 -6px 14px rgba(0, 0, 0, 0.08), 0 10px 26px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(8px) saturate(1.25);
+    transition: box-shadow 0.25s ease, filter 0.25s ease, background 0.25s ease;
+}
+
+.cursor-glass.hovered{
+    box-shadow: inset 0 5px 12px rgba(255, 255, 255, 0.75), inset 0 -8px 18px rgba(0, 0, 0, 0.10), 0 16px 38px rgba(18, 60, 90, 0.22);
+    filter: brightness(1.08);
+}
+
+.cursor-glass.down{
+    filter: brightness(1.1) contrast(1.02);
+}
