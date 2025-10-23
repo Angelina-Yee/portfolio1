@@ -10,7 +10,7 @@ export default function About(){
             <div className="about-grid">
                 <div className="about-left">
                     <h2 id="about-title" className="about-title">About Me</h2>
-                    <p id="about-intro">Hi, I am Angelina. I am a Computer Science student at UCSD with a passion for front-end development and creating UI/UX designs. I focus on creating intuitive, accessible, and engaging digital experiences, and I enjoy creating interactive and responsive designs to bring life into my work.</p>
+                    <p id="about-intro">Hi, I'm Angelina, a Computer Science student at UCSD speacializing in front-end development and UI/UX designs. I focus on creating intuitive, accessible, and engaging digital experiences. My work focuses on interactive web applications, user-centered interfaces, and responsive designs that showcase creativity and functionality.</p>
                     <hr className="about-line"/>
 
                     <h3 className="about-tools">Tools</h3>

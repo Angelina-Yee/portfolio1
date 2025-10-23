@@ -82,7 +82,6 @@ export default function Design(){
                     grabCursor= {true}
                     centeredSlides= {true}
                     autoplay={{delay: 2200, disableOnInteraction: false}}
-                    onSlideChange={() => console.log("slide change")}
                 >
                     {images.map((src, i) => (
                         <SwiperSlide key={i}>

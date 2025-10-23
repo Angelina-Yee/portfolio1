@@ -14,7 +14,6 @@ export default function Contact(){
                             <p className="card-top">Front-End Development & UI/UX Design</p>
                             <h3 className="card-name">Angelina Yee</h3>
                             <p className="card-email">Email: yyunyeee0@gmail.com</p>
-                            <p className="card-phone">Phone: 858-319-7212</p>
                         </div>
                     </GlassCard>
                 </div>
@@ -26,7 +25,7 @@ export default function Contact(){
                             <a className="link-btn" href="mailto:yyunyeee0@gmail.com">Email</a>
                         </li>
                         <li>
-                            <a className="link-btn" href="tel:+1-858-319-7212">Phone</a>
+                            <a className="link-btn" href="mailto:yyunyeee0@gmail.com">Schedule a Call</a>
                         </li>
                         <li>
                             <a className="link-btn" href="https://www.linkedin.com/in/yun-shwe-yee-b26997217/" target="_blank" rel="noreferrer">LinkedIn</a>

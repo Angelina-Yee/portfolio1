@@ -6,6 +6,7 @@ import "./styles.css";
 import Spline from '@splinetool/react-spline';
 import CustomCursor from "./components/CustomCursor.jsx";
 import Contact from "./pages/Contact.jsx";
+import AngelinaYee_Resume from "./assets/AngelinaYee_Resume.pdf";
 
 function App() {
   const [cursorOn, setCursorOn] = useState(() => {
@@ -39,7 +40,7 @@ function App() {
             <button onClick={()=>scrollTo("about")}>About</button>
             <button onClick={()=>scrollTo("projects")}>Projects</button>
             <button><a href="#resume">Resume</a></button>
-            <button><a href="#contact" className="cont">Contact</a></button>
+            <button><a onClick={()=>scrollTo("contact")} className="cont">Contact</a></button>
             <button className="cursor-toggle" aria-pressed={cursorOn} onClick={() => setCursorOn(v=>!v)} title={cursorOn ? "Turn custom cursor off" : "Turn custom cursor on"}>
               {cursorOn ? "Cursor: ON" : "Cursor: OFF"}
             </button>
@@ -63,7 +64,7 @@ function App() {
       <div id="links" className="sectionfour">
         <Contact/>
       </div>
-      <footer id="contact">
+      <footer>
         <p>Let's work together!</p>
       </footer>
     </div>
