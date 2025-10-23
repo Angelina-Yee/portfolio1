@@ -53,7 +53,7 @@ export default function Project(){
                                 <img src={p.image} alt="project screenshot" className="project-image"/>
                             </div>
                         </div>
-                        <div className="card-btn" style={{"--chip": p.accent}}>
+                        <div className="card-btn">
                             <button className="view">View GitHub</button>
                             <button className="view">Live Demo</button>
                         </div>

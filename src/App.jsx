@@ -37,12 +37,13 @@ function App() {
         <nav className="nav">
           <div className="brand">A.Y.</div>
           <div className="nav-links">
-            <button onClick={()=>scrollTo("about")}>About</button>
-            <button onClick={()=>scrollTo("projects")}>Projects</button>
-            <button><a href="#resume">Resume</a></button>
-            <button><a onClick={()=>scrollTo("contact")} className="cont">Contact</a></button>
+            <button onClick={()=>scrollTo("about")} className="links">About</button>
+            <button onClick={()=>scrollTo("projects")} className="links">Projects</button>
+            <button className="links"><a href={AngelinaYee_Resume} target="_blank" rel="noopener noreferrer">Resume</a></button>
+            <button className="links"><a onClick={()=>scrollTo("contact")}>Contact</a></button>
             <button className="cursor-toggle" aria-pressed={cursorOn} onClick={() => setCursorOn(v=>!v)} title={cursorOn ? "Turn custom cursor off" : "Turn custom cursor on"}>
-              {cursorOn ? "Cursor: ON" : "Cursor: OFF"}
+              <span className="liquid"></span>
+              <span className="toggle-text">{cursorOn ? "Cursor ON" : "Cursor OFF"}</span>
             </button>
           </div>
         </nav>

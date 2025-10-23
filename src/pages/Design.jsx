@@ -81,7 +81,7 @@ export default function Design(){
                     loop = {true}
                     grabCursor= {true}
                     centeredSlides= {true}
-                    autoplay={{delay: 2200, disableOnInteraction: false}}
+                    autoplay={false}
                 >
                     {images.map((src, i) => (
                         <SwiperSlide key={i}>
