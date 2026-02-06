@@ -11,7 +11,7 @@ export default function Contact(){
 
                     <GlassCard width={500} height={350}>
                         <div className="card-content">
-                            <p className="card-top">Front-End Development & UI/UX Design</p>
+                            <p className="card-top">Computer Science & Business Psychology</p>
                             <h3 className="card-name">Angelina Yee</h3>
                             <p className="card-email">Email: yyunyeee0@gmail.com</p>
                         </div>

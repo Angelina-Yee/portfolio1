@@ -49,7 +49,7 @@ function App() {
         </nav>
         <div className="hero">
           <h1>Angelina Yee</h1>
-          <h3>Front-end &amp; UI/UX</h3>
+          <h3>Front-end &amp; Research</h3>
           <button className="scroll-down" onClick={() => scrollTo("about")} aria-label="scroll to about page">⌵</button>
         </div>
       </header>

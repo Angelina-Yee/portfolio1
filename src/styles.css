@@ -580,6 +580,12 @@ body:not(.has-custom-cursor) .swiper-slide img:active{
     z-index: 5;
 }
 
+.stack-card:nth-of-type(5){
+    transform: translate(calc((1 - 1) * var(--offset)), calc((4 - 1)*var(--offset)));
+    background-color: rgba(20, 90, 127, 0.30);
+    z-index: 5;
+}
+
 .card-btn{
     z-index: 10;
     cursor: pointer;
@@ -599,7 +605,7 @@ body:not(.has-custom-cursor) .swiper-slide img:active{
     border-radius: 50px;
     box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
     font-size: 15px;
-    padding: 15px 30px;
+    padding: 15px 25px;
     transition: all 0.2s ease-in-out;
     border: 2px solid rgb(206, 206, 206);
     user-select: none;

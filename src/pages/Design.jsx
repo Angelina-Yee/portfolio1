@@ -3,28 +3,30 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
-import hn0 from "../assets/designs/helpNseek/hn0.jpeg";
-import hn1 from "../assets/designs/helpNseek/hn1.jpeg";
+import hn0 from "../assets/designs/helpNseek/hn0.png";
+import hn1 from "../assets/designs/helpNseek/hn1.png";
 import hn2 from "../assets/designs/helpNseek/hn2.jpeg";
 import hn3 from "../assets/designs/helpNseek/hn3.jpeg";
 import hn4 from "../assets/designs/helpNseek/hn4.jpeg";
 import hn5 from "../assets/designs/helpNseek/hn5.jpeg";
-import pc0 from "../assets/designs/pathsCrossed/pc0.jpeg";
-import pc1 from "../assets/designs/pathsCrossed/pc1.jpeg";
-import pc2 from "../assets/designs/pathsCrossed/pc2.jpeg";
-import pc3 from "../assets/designs/pathsCrossed/pc3.jpeg";
-import pc4 from "../assets/designs/pathsCrossed/pc4.jpeg";
-import pc5 from "../assets/designs/pathsCrossed/pc5.jpeg";
-import ff0 from "../assets/designs/forestFlow/ff0.jpeg";
-import ff1 from "../assets/designs/forestFlow/ff1.jpeg";
-import ff2 from "../assets/designs/forestFlow/ff2.jpeg";
-import ff3 from "../assets/designs/forestFlow/ff3.jpeg";
-import ff4 from "../assets/designs/forestFlow/ff4.jpeg";
-import ff5 from "../assets/designs/forestFlow/ff5.jpeg";
-import pp0 from "../assets/designs/pixelPal/pp0.jpeg";
-import pp1 from "../assets/designs/pixelPal/pp1.jpeg";
-import pp2 from "../assets/designs/pixelPal/pp2.jpeg";
-import pp3 from "../assets/designs/pixelPal/pp3.jpeg";
+import pc0 from "../assets/designs/pathsCrossed/pc0.png";
+import pc1 from "../assets/designs/pathsCrossed/pc1.png";
+import pc2 from "../assets/designs/pathsCrossed/pc2.png";
+import pc3 from "../assets/designs/pathsCrossed/pc3.png";
+import pc4 from "../assets/designs/pathsCrossed/pc4.png";
+import pc5 from "../assets/designs/pathsCrossed/pc5.png";
+import ff0 from "../assets/designs/forestFlow/ff0.png";
+import ff1 from "../assets/designs/forestFlow/ff1.png";
+import ff2 from "../assets/designs/forestFlow/ff2.png";
+import ff3 from "../assets/designs/forestFlow/ff3.png";
+import ff4 from "../assets/designs/forestFlow/ff4.png";
+import ff5 from "../assets/designs/forestFlow/ff5.png";
+import pp0 from "../assets/designs/pixelPal/pp00.png";
+import pp1 from "../assets/designs/pixelPal/pp1.png";
+import pp2 from "../assets/designs/pixelPal/pp2.png";
+import pp3 from "../assets/designs/pixelPal/pp3.png";
+import pp4 from "../assets/designs/pixelPal/pp4.png";
+import pp5 from "../assets/designs/pixelPal/pp5.png";
 import "../styles.css";
 
 const categories = [
@@ -42,7 +44,7 @@ const categories = [
     },
     {
         name: "Pixel-Pal",
-        images: [pp0, pp1, pp2, pp3]
+        images: [pp0, pp1, pp2, pp3, pp4, pp5]
     },
 ];
 

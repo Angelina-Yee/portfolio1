@@ -3,6 +3,7 @@ import "../styles.css";
 import avatar from "../assets/ange.png";
 import riveIcon from "../assets/rive-icon.png";
 import splineIcon from "../assets/spline-icon.png";
+import sheets from "../assets/google-sheets.png";
 
 export default function About(){
     return(
@@ -10,7 +11,7 @@ export default function About(){
             <div className="about-grid">
                 <div className="about-left">
                     <h2 id="about-title" className="about-title">About Me</h2>
-                    <p id="about-intro">Hi, I'm Angelina, a Computer Science student at UCSD speacializing in front-end development and UI/UX designs. I focus on creating intuitive, accessible, and engaging digital experiences. My work focuses on interactive web applications, user-centered interfaces, and responsive designs that showcase creativity and functionality.</p>
+                    <p id="about-intro">Hi, I'm Angelina, a Computer Science and Business Psychology student at UCSD speacializing in front-end development, UI/UX designs, user research, and product research. I am interested in how people think, behave, and interact with technology, and I use those insights to create purposeful, user-centered web experiences.</p>
                     <hr className="about-line"/>
 
                     <h3 className="about-tools">Tools</h3>
@@ -30,7 +31,7 @@ export default function About(){
                             {name: "Notion", icon: "notion"},
                             {name: "Git", icon: "git"},
                             {name: "GitHub", icon: "github"},
-                            {name: "Eclipse", icon: "eclipse"},
+                            {name: "Google Sheets", src: sheets},
                         ].map(t=>(
                             <li key={t.name} className="pill">
                                 <img src={t.src || `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${t.icon}/${t.icon}-original.svg`} alt={t.name} className="tool-icons"/>
